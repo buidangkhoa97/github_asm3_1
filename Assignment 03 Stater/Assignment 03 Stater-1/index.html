@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/font.css"/>
+    <link rel="stylesheet" href="./icon-list.html"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/tablets.css"/>
+    <link rel="stylesheet" href="./css/moblie.css"/>
+    <link rel="stylesheet" href="digital-cv.html">
+    <title>Assignment 03</title>
+</head>
+<body>
+<!--banner-->
+<div id="banner">
+    <div class="setup-img"></div>
+    <div class="text-banner">
+        <h1>Bùi Đăng Khoa</h1>
+        <span>Full Stack Developer</span>
+    </div>
+</div>
+<!--navbar-->
+<section id="nav-bar">
+    <nav class="container" style="padding-top: 0">
+        <a href="digital-cv.html">Thông tin &nbsp; <i class="icon icon-user"></i></a>
+        <a href="digital-cv.html">Lý lịch &nbsp; <i class="icon icon-doc-text-inv"></i></a>
+        <div class="text-individual">
+
+            <!-- lv up-->
+            <div class="avatar-nav">
+                <img src="./default-avatar.webp" alt="avatar" class="default img-responsive"/>
+            </div>
+            <h1>Bùi Đăng Khoa</h1>
+            <span>Full Stack Developer</span>
+        </div>
+        <a href="digital-cv.html">Chứng chỉ &nbsp; <i class="icon icon-mail-alt"></i></a>
+        <a href="digital-cv.html">Dự Án &nbsp; <i class="icon icon-star-1"></i></a>
+    </nav>
+    </div>
+
+</section>
+
+<!-- about-->
+<section id="about" class="my-4">
+    <div class="container">
+        <div class="row g-3">
+            <div id="target" class="col-lg-6 col-md-6 col-12">
+                <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+                <div class="text-about1">
+                    <p>
+                        Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+                        của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+                        <b>Fullstack Developer</b>, có thể vận dụng những kiến thức đã
+                        được trau dồi và không ngừng học hỏi để phát triển bản thân, cũng
+                        như hoàn thành tốt nhất công việc được giao.
+                    </p>
+                </div>
+            </div>
+            <div id="personal-info" class="col-lg-6 col-md-6 col-12">
+                
+                  <h1 class="section-title">Thông tin cá nhân</h1>
+                  <div class="input-personal-info">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                      />
+                      <div id="emailHelp" class="form-text">
+                        We'll never share your email with anyone else.
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btnInputPersonal">
+                      Submit
+                    </button>
+                  </div>
+                  <div class="output-personal-info hide">
+                    <ul class="mt-40 info">
+                      <li><strong>Giới tính</strong> : Nam</li>
+                      <li><strong>Ngày sinh</strong> : 26/12/1997</li>
+                      <li><strong>Điện thoại</strong> : (+81) 8030917938</li>
+                      <li><strong>Email</strong> : khoabdFX22683@funix.edu.vn</li>
+                      <li><strong>Địa chỉ</strong> : Quang Vinh - An Thi</li>
+                      <li><strong>Website</strong> : https://abc.tech</li>
+                      <div id="icon_3">
+                        <i class="icon-twitter"></i>
+                        <i class="icon-facebook"></i>
+                        <i class="icon-gplus"></i>
+                        <i class="icon-linkedin"></i>
+                      </div>
+                    </ul>
+                  </div>
+              </div>
+        </div>
+    </div>
+</section>
+
+<!-- jop-infor-->
+<section id="control-view">
+    <div class="container mb-5">
+        <div class="row align-items-start g-4">
+            <!-- KINH NGHIỆM-->
+            <div class="col-xxl-4 col-md-6">
+                <div class="jop-box">
+                    <div class="jop-title">
+                        <div class="jop">
+                            <h2>Kinh nghiệm</h2>
+                        </div>
+                        <div class="jop-icon">
+                            <span><i class="ic-toolbox"></i></span>
+                        </div>
+                      <button
+                            id="jophidden"
+                              class="btn view view-more"
+                              type="button"
+                               data-toggle="collapse"
+                              data-target="#jobCollapse-1"
+                              aria-expanded="false"
+                              aria-controls="jobCollapse-1"
+                      >
+                        <i class="icon icon-sort-down"></i>VIEW MORE
+                      </button>
+                  
+                    </div>
+                  <div id="jobCollapse-1" class="job-content collapse">
+                        <div class="jop-list" style="margin-bottom: 20px">
+                            <h3 class="jop-node">Full Stack Developer - Công Ty Y</h3>
+                        </div>
+                        <div style="margin: 10px 0 10px 0">
+                            <span>05/2022 -</span><span class="text"> Hiện Tại</span>
+                        </div>
+                        <div style="font-size: 18px">
+                            <p>
+                                - Dựng, phát triển website dựa trên thiết kế và yêu cầu đã có
+                            </p>
+                            <p>
+                                - tích va thiết kế Database ,sử dụng các hệ quản trị CSDL
+                                (MySQL,SQL, Sever,NoSQL,...)và viết các câu truy vấn.
+                            </p>
+                            <p>
+                                - dụng ngôn ngữ sever-side (Python,Java,...)để xây dựng các Web
+                                Service.
+                            </p>
+                        </div>
+                        <div class="jop-list1" style="margin-top: 20px">
+                            <h3 class="jop-node">Web Designer - Công Ty X</h3>
+                        </div>
+                        <div style="margin: 10px 0 10px 0">
+                            <span>06/2021 - 04/2022</span>
+                        </div>
+                        <div style="font-size: 18px">
+                            <p>Thiết kế Website dựa trên yêu cầu của khách hàng.</p>
+                            <p>Sử dụng các công cụ: Figma,Canva, PTS.</p>
+                        </div>
+                        <div>
+                        <button
+                            class="btn view view-less"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#jobCollapse-1"
+                            aria-expanded="false"
+                            aria-controls="jobCollapse-1"
+                                                        >
+                            <i class="icon icon-sort-up"></i>VIEW LESS
+                        </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- HỌC VẤN -->
+            <div class="col-xxl-4 col-md-6">
+                <div class="jop-box">
+                    <div class="jop-title">
+                        <div class="jop">
+                            <h2>Học vấn</h2>
+                        </div>
+                        <div class="jop-icon">
+                            <span><i class="ic-pencil"></i></span>
+                        </div>
+                        <button
+                            id="jophidden"
+                              class="btn view view-more"
+                              type="button"
+                               data-toggle="collapse"
+                              data-target="#jobCollapse-2"
+                              aria-expanded="false"
+                              aria-controls="jobCollapse-2"
+                            
+                      >
+                        <i class="icon icon-sort-down"></i>VIEW MORE
+                      </button>
+                      
+                    </div>
+                    <div id="jobCollapse-2" class="job-content collapse">
+                        <div class="jop-list" style="margin-bottom: 20px">
+                            <h3 class="jop-node">FUNIX</h3>
+                        </div>
+                        <div style="margin: 10px 0 10px 0">
+                            <span>06/2021 - 05/2022</span>
+                        </div>
+                        <div style="font-size: 18px">
+                            <p>- Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack</p>
+                            <p>- GPA: 9/10</p>
+                        </div>
+                        <div class="jop-list1" style="margin-top: 20px">
+                            <h3 class="jop-node">Cử nhân - ĐH FPT</h3>
+                        </div>
+                        <div style="margin: 10px 0 10px 0">
+                            <span>08/2016 - 07/2019</span>
+                        </div>
+                        <div style="font-size: 18px">
+                            <p>Chuyên nghành: kỹ thuật phần mềm</p>
+                            <p>GPA: 3,2/4</p>
+                        </div>
+                        <div class="jop-list2" style="margin-top: 20px">
+                            <h3 class="jop-node">Đại học Hà Nội</h3>
+                        </div>
+                        <div style="margin: 10px 0 10px 0">
+                            <span>08/2016 - 02/2018</span>
+                        </div>
+                        <div style="font-size: 18px">
+                            <p>- Hệ từ xa, Chuyên nghành: Ngôn ngữ Nhật</p>
+                            <p>- GPA: 2.8/4</p>
+                        </div>
+                        <div>
+                            <button
+                                  class="btn view view-less"
+                                  type="button"
+                                  data-toggle="collapse"
+                                  data-target="#jobCollapse-2"
+                                  aria-expanded="false"
+                                  aria-controls="jobCollapse-2"
+                          >
+                            <i class="icon icon-sort-up"></i>VIEW LESS
+                          </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+            <!--HOẠT ĐỘNG-->
+            <div class="col-xxl-4 col-md-6">
+                <div class="jop-box">
+                    <div class="jop-title">
+                        <div class="jop">
+                            <h2>Hoạt động</h2>
+                        </div>
+                        <div class="jop-icon">
+                            <span><i class="ic-toolbox"></i></span>
+                        </div>
+                        <button
+                            id="jophidden"
+                              class="btn view view-more"
+                              type="button"
+                               data-toggle="collapse"
+                              data-target="#jobCollapse-3"
+                              aria-expanded="false"
+                              aria-controls="jobCollapse-3"
+                            
+                      >
+                        <i class="icon icon-sort-down"></i>VIEW MORE
+                      </button>
+                    </div>
+                    <div id="jobCollapse-3" class="job-content collapse">
+                        <div class="jop-list" style="margin-bottom: 20px">
+                            <h3 class="jop-node">FPT Edu Hackathon 2019</h3>
+                        </div>
+                        <div style="margin: 10px 0 10px 0">
+                            <span>09/2019 - 05/2019</span>
+                        </div>
+                        <div style="font-size: 18px">
+                            <p>- Giải 3 bảng A</p>
+                            <p>- Đề tài: Trang web phân loại giác thải.</p>
+                        </div>
+                        <div class="jop-list1" style="margin-top: 20px">
+                            <h3 class="jop-node">Câu lạc bộ Z</h3>
+                        </div>
+                        <div style="margin: 10px 0 10px 0">
+                            <span>08/2016 - 08/2017</span>
+                        </div>
+                        <div style="font-size: 18px">
+                            <p>- Trưởng ban chuyên môn</p>
+                        </div>
+                        <div class="jop-list2" style="margin-top: 20px">
+                            <h3 class="jop-node">Câu lạc bộ Z</h3>
+                        </div>
+                        <div style="margin: 10px 0 10px 0">
+                            <span>08/2016</span>
+                        </div>
+                        <div style="font-size: 18px">
+                            <p>- Hỗ trợ tổ chức tuần lễ văn hóa Việt Nam - Nhật Bản</p>
+                        </div>
+                        <div>
+                            <button
+                                  class="btn view view-less"
+                                  type="button"
+                                  data-toggle="collapse"
+                                  data-target="#jobCollapse-3"
+                                  aria-expanded="false"
+                                  aria-controls="jobCollapse-3"
+                          >
+                            <i class="icon icon-sort-up"></i>VIEW LESS
+                          </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SỞ THÍCH -->
+            <div class="col-xxl-4 col-md-6">
+                <div class="jop-box">
+                    <div class="jop-title">
+                        <div class="jop">
+                            <h2>Sở Thích</h2>
+                        </div>
+                        <div class="jop-icon">
+                            <span><i class="ic-telescope"></i></span>
+                        </div>
+                        <button
+                            id="jophidden"
+                              class="btn view view-more"
+                              type="button"
+                               data-toggle="collapse"
+                              data-target="#jobCollapse-4"
+                              aria-expanded="false"
+                              aria-controls="jobCollapse-4"
+                            
+                      >
+                        <i class="icon icon-sort-down"></i>VIEW MORE
+                      </button>
+                      
+                    </div>
+                    <div id="jobCollapse-4" class="job-content collapse">
+                        <div class="list-icon">
+                            <div class="icon1"><i class="ic-mic"></i></div>
+                            <div class="icon2"><i class="ic-strategy"></i></div>
+                            <div class="icon3"><i class="ic-hotairballoon"></i></div>
+                            <div class="icon4"><i class="ic-basket"></i></div>
+                        </div>
+                        <div class="text-likes">
+                            <p>Ca hát</p>
+                            <p>Cá ngựa</p>
+                            <p>Nhảy dù</p>
+                            <p>Mua sắm</p>
+                        </div>
+                        <div>
+                            <button
+                                  class="btn view view-less"
+                                  type="button"
+                                  data-toggle="collapse"
+                                  data-target="#jobCollapse-4"
+                                  aria-expanded="false"
+                                  aria-controls="jobCollapse-4"
+                          >
+                            <i class="icon icon-sort-up"></i>VIEW LESS
+                          </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- NGÔN NGỮ -->
+            <div class="col-xxl-4 col-md-6">
+                <div class="jop-box">
+                    <div class="jop-title">
+                        <div class="jop">
+                            <h2>Ngôn ngữ</h2>
+                        </div>
+                        <div class="jop-icon">
+                            <span><i class="ic-mic"></i></span>
+                        </div>
+                        <button
+                            id="jophidden"
+                              class="btn view view-more"
+                              type="button"
+                               data-toggle="collapse"
+                              data-target="#jobCollapse-5"
+                              aria-expanded="false"
+                              aria-controls="jobCollapse-5"
+                            
+                      >
+                        <i class="icon icon-sort-down"></i>VIEW MORE
+                      </button>
+                    </div>
+                    <div id="jobCollapse-5" class="job-content collapse">
+                        <div class="text-english" style="font-weight: bold">
+                            <p>English - IELTS 7.0</p>
+                            <span class="pass"></span><span class="pass"></span
+                        ><span class="bad"></span>
+                        </div>
+                        <div class="text-japan" style="font-weight: bold">
+                            <p>Japnnese - N3</p>
+                            <span class="pass"></span><span class="pass"></span
+                        ><span class="pass"></span>
+                        </div>
+                        <div>
+                            <button
+                                  class="btn view view-less"
+                                  type="button"
+                                  data-toggle="collapse"
+                                  data-target="#jobCollapse-5"
+                                  aria-expanded="false"
+                                  aria-controls="jobCollapse-5"
+                          >
+                            <i class="icon icon-sort-up"></i>VIEW LESS
+                          </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KỸ NĂNG -->
+            <div class="col-xxl-4 col-md-6">
+                <div class="jop-box">
+                    <div class="jop-title">
+                        <div class="jop">
+                            <h2>Kỹ năng</h2>
+                        </div>
+                        <div class="jop-icon">
+                            <span><i class="ic-tools-2"></i></span>
+                        </div>
+                        <button
+                        id="jophidden"
+                          class="btn view view-more"
+                          type="button"
+                           data-toggle="collapse"
+                          data-target="#jobCollapse-6"
+                          aria-expanded="false"
+                          aria-controls="jobCollapse-6"
+                        
+                  >
+                    <i class="icon icon-sort-down"></i>VIEW MORE
+                  </button>
+                    </div>
+                    <div id="jobCollapse-6" class="job-content collapse">
+                        <div class="text-HTML" style="font-weight: bold">
+                            <p>HTML/CSS:Fundamental</p>
+                            <span class="pass"></span><span class="pass"></span
+                        ><span class="bad"></span>
+                        </div>
+                        <div class="text-Java" style="font-weight: bold">
+                            <p>Javascript:Intermediate</p>
+                            <span class="pass"></span><span class="pass"></span
+                        ><span class="bad"></span>
+                            <div class="text-english" style="font-weight: bold">
+                                <p>NodeJS:intermediate</p>
+                                <span class="pass"></span><span class="pass"></span
+                            ><span class="pass"></span>
+                            </div>
+                            <div class="text-japan" style="font-weight: bold">
+                                <p>Bootstrap 5:Fundamental</p>
+                                <span class="pass"></span><span class="bad"></span
+                            ><span class="bad"></span>
+                            </div>
+                            <div>
+                                <button
+                                      class="btn view view-less"
+                                      type="button"
+                                      data-toggle="collapse"
+                                      data-target="#jobCollapse-6"
+                                      aria-expanded="false"
+                                      aria-controls="jobCollapse-6"
+                              >
+                                <i class="icon icon-sort-up"></i>VIEW LESS
+                              </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--certificate-->
+<section id="certificate" class="bg-grey">
+    <div class="container">
+        <h2 class="section-title">Chứng chỉ - Giải thưởng</h2>
+        <div class="row g-3">
+            <div class="certificate-content col-md-6 mb-4">
+                <img src="Cert_DBI.png" alt="" class="certificate-img img-fuild"/>
+                <div class="text-title">
+                    <h4 style="margin-bottom: 10px">CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX</h4>
+                    <div>
+                        <p>-Chứng chỉ thuộc chương trình CCDN</p>
+                        <p>-GPA:8,6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="certificate-content1 col-md-6 md-4">
+                <img src="Cert_DBI.png" alt="" class="certificate-img img-fuild"/>
+                <div class="text-title">
+                    <h4 style="margin-bottom: 10px">
+                        CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT - FUNIX
+                    </h4>
+                    <div>
+                        <p>-Chứng chỉ thuộc chương trình CCDN</p>
+                        <p>-GPA:8,9</p>
+                    </div>
+                </div>
+            </div>
+            <div class="certificate-content2 col-lg-12">
+                <img src="Cert_DBI.png" alt="" class="certificate-img img-fuild"/>
+                <div class="text-title">
+                    <h4 style="margin-bottom: 10px">
+                        CHỨNG CHỈ LẬP TRÌNH DATABASE - FUNIX
+                    </h4>
+                    <div>
+                        <p>-Chứng chỉ thuộc chương trình CCDN</p>
+                        <p>-GPA:8,0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--project-->
+<section id="project" class="mb-5">
+    <div class="container">
+        <h2 class="section-title">Dự án
+            <a href="digital-cv.html"></a>
+        </h2>
+        <div class="row">
+            <div class="col-md-4 mb-5 mb-md-0">
+                <div class="project-img">
+                    <img src="./images/project_1.png" alt="" width="100%"/>
+                    <div class="project-title">CV CÁ NHÂN</div>
+                    <div class="project-navar">
+                        <span class="text" style="margin-right: 20px">2021</span>
+                        <i class="icon-user"></i>
+                        <span style="margin-left: 4px; margin-right: 20px">FUNiX</span>
+                        <i class="icon-lamp"></i>
+                        <span style="margin-left: 4px">Developer</span>
+                    </div>
+                    <table>
+                        <tr>
+                            <td style="width: 120px">Mô tả</td>
+                            <td>
+                                Trang Web CV cá nhân online.Gồm các thông tin cá nhân cũng như
+                                kỹ năng nghề nghiệp.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 120px">Nhiệm vụ</td>
+                            <td>-Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 120px">Công nghệ</td>
+                            <td>-HTML,CSS</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5 mb-md-0">
+                <div class="project-img">
+                    <img src="./images/project_2.png" alt="" width="100%"/>
+                    <div class="project-title text-title">TRANG WEB QUẢN LÝ THÚ CƯNG</div>
+                    <div class="project-navar">
+                        <span class="text" style="margin-right: 20px">2021</span>
+                        <i class="icon-user"></i>
+                        <span style="margin-left: 4px; margin-right: 20px">FUNiX</span>
+                        <i class="icon-lamp"></i>
+                        <span style="margin-left: 4px">Developer</span>
+                    </div>
+                    <table>
+                        <tr>
+                            <td style="width: 120px">Mô tả</td>
+                            <td>
+                                Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân nặng ,
+                                giống , tình trạng tiêm chủng,.. Bao gồm các chức năng thêm
+                                /sửa/xóa.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 120px">Nhiệm vụ</td>
+                            <td>-Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 120px">Công nghệ</td>
+                            <td>-HTML,CSS,Javascript</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5 mb-md-0">
+                <div class="project-img">
+                    <img src="./images/project_3.png" alt="" width="100%"/>
+                    <div class="project-title">TRANG WEB TIN TỨC</div>
+                    <div class="project-navar">
+                        <span class="text" style="margin-right: 20px">2021</span>
+                        <i class="icon-user"></i>
+                        <span style="margin-left: 4px; margin-right: 20px">FUNiX</span>
+                        <i class="icon-lamp"></i>
+                        <span style="margin-left: 4px">Developer</span>
+                    </div>
+                    <table>
+                        <tr>
+                            <td style="width: 120px">Mô tả</td>
+                            <td>
+                                Trang web xem tin tức nhiều nguồn khác nhau, người dùng có thể
+                                tìm kiếm các tin tức dựa theo các từ khóa
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 120px">Nhiệm vụ</td>
+                            <td>-Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 120px">Công nghệ</td>
+                            <td> - HTML,CSS</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--footer-->
+<section id="footer" class="bg-grey">
+    <div class="container">
+        <a href="#"><i class="icon icon-facebook-circled"></i>Facebook</a>
+        <a href="#"><i class="icon icon-linkedin-circled"></i>Linkedin</a>
+        <a href="#"><i class="icon icon-github-circled"></i>Github</a>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+></script>
+<script src="./javascript/script.js"></script>
+</body>
+</html>
